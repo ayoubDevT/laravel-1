@@ -8,3 +8,7 @@
 
 # composer install to download the vendors
 `composer install`
+## copy env
+`copy .env.example .env`
+## run 
+`php artisan serve`
