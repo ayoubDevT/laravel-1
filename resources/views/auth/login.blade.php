@@ -90,7 +90,7 @@ License: You must have a valid license purchased only from themeforest(the above
                         <div class="d-flex justify-content-between mt-n5">
                             <label class="font-size-h6 font-weight-bolder text-dark pt-5">Your Password</label>
 
-                            <a href="custom/pages/login/login-4/forgot.html" class="text-primary font-size-h6 font-weight-bolder text-hover-primary pt-5">
+                            <a href="{{ route('password.request') }}" class="text-primary font-size-h6 font-weight-bolder text-hover-primary pt-5">
         						Forgot Password ?
         					</a>
                         </div>
@@ -102,11 +102,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					    @enderror
                     </div>
                     <!--end::Form group-->
-                    @if (Route::has('password.request'))
-                    <a class="btn btn-link" href="{{ route('password.request') }}">
-                        {{ __('Forgot Your Password?') }}
-                    </a>
-                @endif
+
                     <!--begin::Action-->
                     <div class="pb-lg-0 pb-5">
                         <button type="submit" id="kt_login_singin_form_submit_button" class="btn btn-primary font-weight-bolder font-size-h6 px-8 py-4 my-3 mr-3">Sign In</button>
