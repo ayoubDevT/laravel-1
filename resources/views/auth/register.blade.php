@@ -16,7 +16,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <!--begin::Head-->
     <head><base href="../../../../">
         <meta charset="utf-8"/>
-        <title>Metronic | Sign Up</title>
+        <title>Sign Up</title>
         <meta name="description" content="Singin page example"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
@@ -158,7 +158,7 @@ License: You must have a valid license purchased only from themeforest(the above
                             <h3 class="font-weight-bolder text-dark font-size-h2 font-size-h1-lg">Create Account</h3>
                             <div class="text-muted font-weight-bold font-size-h4">
                                 Already have an Account ?
-                                <a href="custom/pages/login/login-4/signin.html" class="text-primary font-weight-bolder">Sign In</a>
+                                <a href="{{ route('login') }}" class="text-primary font-weight-bolder">Sign In</a>
                             </div>
                         </div>
                         <!--begin::Title-->
